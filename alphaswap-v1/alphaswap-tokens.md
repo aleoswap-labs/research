@@ -234,7 +234,7 @@ Params:
 
 - `token_id: field`: the token id to be approved
 - `spender: address`: the spender address
-- `amount: u128`: the maximum amount that the spender can spend
+- `amount: u128`: the amount of approval to be increased
 
 ### unapprove_public
 
@@ -250,7 +250,7 @@ Params:
 
 - `token_id: field`: the token id to be approved
 - `spender: address`: the spender address
-- `amount: u128`: the maximum amount that the spender can spend
+- `amount: u128`: the amount of approval to be decreased
 
 ### transfer_from_public
 
@@ -288,3 +288,4 @@ Params:
 - `pt1: PrivateToken`: the PrivateToken record to be spent
 - `pt2: PrivateToken`: the PrivateToken record to be spent
 - Output 1 PrivateToken record: the new record with an amount of `pt1.amount + pt2.amount`.
+
